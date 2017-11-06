@@ -1,0 +1,50 @@
+
+
+	body{
+	position: relative;
+	height: 8500px;
+	background-image: url("../images/small.jpg");
+	background-size: 100%;
+	margin: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){ 
+	body {
+	position: relative;
+	background-image: url("../images/medium.jpg");
+	background-size: 100%;
+	margin: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1092px) { 
+	body {
+	position: relative;
+	background-image: url("../images/large.jpg");
+	background-size: 100%;
+	margin: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+	body {
+	position: relative;
+	background-image: url("../images/xl.jpg");
+	background-size: 100%;
+	margin: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+}	
+}
